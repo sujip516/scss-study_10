@@ -1,0 +1,36 @@
+%padding {
+  padding: 0 60px;
+}
+
+%evnetsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+}
+%borderDash {
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+}
+%borderDashAll {
+  border: 1px dashed black;
+}
+%btn {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+%btnHover {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
